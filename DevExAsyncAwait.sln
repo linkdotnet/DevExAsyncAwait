@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BenchmarkStateMachine", "BenchmarkStateMachine\BenchmarkStateMachine.csproj", "{CF1C9D47-AF94-48BC-BDF9-825D7183F128}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exceptions", "Exceptions\Exceptions.csproj", "{677A2F9B-C6D6-4F4C-8EF8-245E36752F7B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncVoidException", "AsyncVoidException\AsyncVoidException.csproj", "{E62DB5FD-8688-4861-8E47-90BB2E11F595}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncDeadlock", "SyncDeadlock\SyncDeadlock.csproj", "{8AB12A54-8EE0-4EA7-8922-4F4C87624AA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoSyncDeadlock", "NoSyncDeadlock\NoSyncDeadlock.csproj", "{93B88D14-C8FF-4D1E-9212-98D01232EEAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwaitTaskVsAwaitFunction", "AwaitTaskVsAwaitFunction\AwaitTaskVsAwaitFunction.csproj", "{20F28E44-B430-427D-8478-07A6BA04472C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF1C9D47-AF94-48BC-BDF9-825D7183F128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF1C9D47-AF94-48BC-BDF9-825D7183F128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF1C9D47-AF94-48BC-BDF9-825D7183F128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF1C9D47-AF94-48BC-BDF9-825D7183F128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{677A2F9B-C6D6-4F4C-8EF8-245E36752F7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{677A2F9B-C6D6-4F4C-8EF8-245E36752F7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{677A2F9B-C6D6-4F4C-8EF8-245E36752F7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{677A2F9B-C6D6-4F4C-8EF8-245E36752F7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E62DB5FD-8688-4861-8E47-90BB2E11F595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E62DB5FD-8688-4861-8E47-90BB2E11F595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E62DB5FD-8688-4861-8E47-90BB2E11F595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E62DB5FD-8688-4861-8E47-90BB2E11F595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AB12A54-8EE0-4EA7-8922-4F4C87624AA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AB12A54-8EE0-4EA7-8922-4F4C87624AA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AB12A54-8EE0-4EA7-8922-4F4C87624AA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AB12A54-8EE0-4EA7-8922-4F4C87624AA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93B88D14-C8FF-4D1E-9212-98D01232EEAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93B88D14-C8FF-4D1E-9212-98D01232EEAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93B88D14-C8FF-4D1E-9212-98D01232EEAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93B88D14-C8FF-4D1E-9212-98D01232EEAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20F28E44-B430-427D-8478-07A6BA04472C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20F28E44-B430-427D-8478-07A6BA04472C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20F28E44-B430-427D-8478-07A6BA04472C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20F28E44-B430-427D-8478-07A6BA04472C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55D72BFC-5A6F-41A3-AD51-A26934AC0B12}
+	EndGlobalSection
+EndGlobal
