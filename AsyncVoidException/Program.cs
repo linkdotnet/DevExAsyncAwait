@@ -21,7 +21,7 @@ namespace AsyncVoidException
             Console.Write("Was there something?");
         }
 
-        private static async Task ThrowExceptionAsync()
+        private static async void ThrowExceptionAsync()
         {
             await Task.Yield();
             throw new Exception("This is our small happy accident");
