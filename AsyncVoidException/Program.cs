@@ -5,11 +5,11 @@ namespace AsyncVoidException
 {
     public static class Program
     {
-        public static async Task Main()
+        public static void Main()
         {
             try
             {
-                await ThrowExceptionAsync();
+                ThrowExceptionAsync();
             }
             catch (Exception e)
             {

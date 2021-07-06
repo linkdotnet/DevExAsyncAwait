@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace Exceptions
@@ -8,9 +7,6 @@ namespace Exceptions
     {
         public static async Task Main()
         {
-            var ids = new List<int>();
-            ids.ForEach(async id => await Task.Delay(id));
-            
             try
             {
                 // await DoWorkWithAwaitAsync();

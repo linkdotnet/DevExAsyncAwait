@@ -16,9 +16,10 @@ namespace BenchmarkStateMachine
     [MemoryDiagnoser]
     [SimpleJob(RuntimeMoniker.Net472)]
     [SimpleJob(RuntimeMoniker.Net50)]
+    [SimpleJob(RuntimeMoniker.Net60)]
     public class BenchmarkMe
     {
-        private static readonly Task<string> ExampleTask = Task.FromResult("Hey dear DevExchange");
+        private static readonly Task<string> ExampleTask = Task.FromResult("Hey dear .NET User Group Zurich");
 
         [Benchmark]
         public async Task<string> GetStringWithoutAsync()
@@ -42,4 +43,4 @@ namespace BenchmarkStateMachine
             return await ExampleTask;
         }
     }
-}
+}-

@@ -20,7 +20,7 @@ namespace AwaitTaskVsAwaitFunction
         public static async Task DoSomeWorkAsync()
         {
             Console.WriteLine("Begin DoSomeWorkAsync with ThreadId: " + Thread.CurrentThread.ManagedThreadId);
-            await Task.Delay(100); // Let's check the thread ID
+            await Task.Delay(5000); // Let's check the thread ID
             Console.WriteLine("End DoSomeWorkAsync with ThreadId: " + Thread.CurrentThread.ManagedThreadId);
         }
     }
