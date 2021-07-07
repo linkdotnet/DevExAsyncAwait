@@ -15,7 +15,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoSyncDeadlock", "NoSyncDea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwaitTaskVsAwaitFunction", "AwaitTaskVsAwaitFunction\AwaitTaskVsAwaitFunction.csproj", "{20F28E44-B430-427D-8478-07A6BA04472C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwaitForeach", "AwaitForeach\AwaitForeach.csproj", "{6691A7B0-08B9-4003-8CE1-598F18311391}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AwaitForeach", "AwaitForeach\AwaitForeach.csproj", "{6691A7B0-08B9-4003-8CE1-598F18311391}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwaitTaskVsAwaitFunctionRuntime", "AwaitTaskVsAwaitFunctionRuntime\AwaitTaskVsAwaitFunctionRuntime.csproj", "{A6B4DAB5-9640-4FA0-8777-1A4522DF4FA2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{6691A7B0-08B9-4003-8CE1-598F18311391}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6691A7B0-08B9-4003-8CE1-598F18311391}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6691A7B0-08B9-4003-8CE1-598F18311391}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6B4DAB5-9640-4FA0-8777-1A4522DF4FA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6B4DAB5-9640-4FA0-8777-1A4522DF4FA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6B4DAB5-9640-4FA0-8777-1A4522DF4FA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6B4DAB5-9640-4FA0-8777-1A4522DF4FA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
