@@ -43,4 +43,4 @@ namespace BenchmarkStateMachine
             return await ExampleTask;
         }
     }
-}-
+}
